@@ -12,6 +12,7 @@ This project uses Convolutional Neural Networks (CNNs) to detect pneumonia from 
 The dataset used is from Kaggle: [Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
 
 Organize dataset as:
+
 -chest_xray/
 
 --train/
