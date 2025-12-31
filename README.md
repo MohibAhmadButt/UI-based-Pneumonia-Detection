@@ -33,3 +33,6 @@ pip install -r requirements.txt
 notebooks/pneumonia_detection.ipynb
 
 3. Run the Gradio UI for predictions
+
+## Output
+<img width="1914" height="518" alt="image" src="https://github.com/user-attachments/assets/a181cf04-1f49-4f3e-8f7b-65fc9a03e187" />
