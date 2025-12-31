@@ -13,12 +13,15 @@ The dataset used is from Kaggle: [Chest X-Ray Images (Pneumonia)](https://www.ka
 
 Organize dataset as:
 -chest_xray/
+
 --train/
 ----NORMAL/
 ----PNEUMONIA/
+
 --val/
 ----NORMAL/
 ---PNEUMONIA/
+
 --test/
 ----NORMAL/
 ----PNEUMONIA/
