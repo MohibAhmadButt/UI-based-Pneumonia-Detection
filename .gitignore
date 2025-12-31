@@ -1,0 +1,12 @@
+# OS files
+.DS_Store
+
+# Python & Jupyter
+__pycache__/
+.ipynb_checkpoints/
+
+# Dataset
+dataset/chest_xray/
+
+# Trained models
+*.h5
