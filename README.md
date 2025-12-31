@@ -1,2 +1,35 @@
-# UI-based-Pneumonia-Detection
-Deep learning based pneumonia detection from chest X-ray images with an interactive Gradio UI.
+# UI-based Pneumonia Detection
+
+This project uses Convolutional Neural Networks (CNNs) to detect pneumonia from chest X-ray images with a **Gradio-based UI** for easy interaction.
+
+## Features
+- Train and evaluate a CNN model
+- Visualize training history and confusion matrix
+- **Upload X-ray images through a user-friendly Gradio interface**
+- Predict whether the X-ray shows **Normal** or **Pneumonia**
+
+## Dataset
+The dataset used is from Kaggle: [Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
+
+Organize dataset as:
+chest_xray/
+train/
+NORMAL/
+PNEUMONIA/
+val/
+NORMAL/
+PNEUMONIA/
+test/
+NORMAL/
+PNEUMONIA/
+
+
+## Usage
+
+1. Install dependencies:
+pip install -r requirements.txt
+
+2. Open Jupyter Notebook for training & evaluation:
+notebooks/pneumonia_detection.ipynb
+
+3. Run the Gradio UI for predictions
